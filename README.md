@@ -7,4 +7,4 @@ with Google Chrome.
 
 ![alt text][sample] 
 
-[sample]: https://github.com/glegoux/mooc/blob/master/resume_sample.png "sample"
+[sample]: https://github.com/glegoux/resume/blob/master/resume_sample.png "sample"
