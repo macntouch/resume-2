@@ -1,0 +1,322 @@
+/* Grid A4 >> 10 Columns */
+
+body {
+  min-width: 20cm;
+}
+
+/* Container
+----------------------------------------------------------------------------------------------------*/
+
+.container_10 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 20cm;
+}
+
+/* Grid >> Global
+----------------------------------------------------------------------------------------------------*/
+
+.grid_1,
+.grid_2,
+.grid_2_5,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_5_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_10_5 {
+  display: inline;
+  float: left;
+  margin-left: 0.25cm;
+  margin-right: 0.25cm;
+}
+
+.block_left {
+  margin-right: -0.50cm;
+}
+
+.block_right {
+  margin-left: -0.50cm;
+}
+
+.push_1, .pull_1,
+.push_2, .pull_2,
+.push_3, .pull_3,
+.push_4, .pull_4,
+.push_5, .pull_5,
+.push_6, .pull_6,
+.push_7, .pull_7,
+.push_8, .pull_8,
+.push_9, .pull_9,
+.last, .first, .middle {
+  position: relative;
+}
+
+/* Grid >> Children (Alpha ~ First, Omega ~ Last)
+----------------------------------------------------------------------------------------------------*/
+
+.alpha {
+  margin-left: 0;
+}
+
+.omega {
+  margin-right: 0;
+}
+
+/* Grid >> 10 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.container_10 .grid_1 {
+  width: 1.5cm;
+}
+
+.container_10 .grid_2 {
+  width: 3.5cm;
+}
+
+.container_10 .grid_2_5 {
+  width: 5.0cm;
+}
+
+.container_10 .grid_3 {
+  width: 5.5cm;
+}
+
+.container_10 .grid_4 {
+  width: 7.5cm;
+}
+
+.container_10 .grid_5 {
+  width: 9.5cm;
+}
+
+.container_10 .grid_5_5 {
+  width: 10.25cm;
+}
+
+.container_10 .grid_6 {
+  width: 11.5cm;
+}
+
+.container_10 .grid_7 {
+  width: 13.5cm;
+}
+
+.container_10 .grid_8 {
+  width: 15.5cm;
+}
+
+.container_10 .grid_9 {
+  width: 17.5cm;
+}
+
+.container_10 .grid_10 {
+  width: 19.5cm;
+}
+
+.container_10 .grid_10_5 {
+  width: 21cm;
+}
+
+/* Prefix Extra Space >> 10 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.container_10 .prefix_1 {
+  padding-left: 2cm;
+}
+
+.container_10 .prefix_2 {
+  padding-left: 4cm;
+}
+
+.container_10 .prefix_3 {
+  padding-left: 6cm;
+}
+
+.container_10 .prefix_4 {
+  padding-left: 8cm;
+}
+
+.container_10 .prefix_5 {
+  padding-left: 10cm;
+}
+
+.container_10 .prefix_6 {
+  padding-left: 12cm;
+}
+
+.container_10 .prefix_7 {
+  padding-left: 14cm;
+}
+
+.container_10 .prefix_8 {
+  padding-left: 16cm;
+}
+
+.container_10 .prefix_9 {
+  padding-left: 18cm;
+}
+
+/* Suffix Extra Space >> 10 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.container_10 .suffix_1 {
+  padding-right: 2cm;
+}
+
+.container_10 .suffix_2 {
+  padding-right: 4cm;
+}
+
+.container_10 .suffix_3 {
+  padding-right: 6cm;
+}
+
+.container_10 .suffix_4 {
+  padding-right: 8cm;
+}
+
+.container_10 .suffix_5 {
+  padding-right: 10cm;
+}
+
+.container_10 .suffix_6 {
+  padding-right: 12cm;
+}
+
+.container_10 .suffix_7 {
+  padding-right: 14cm;
+}
+
+.container_10 .suffix_8 {
+  padding-right: 16cm;
+}
+
+.container_10 .suffix_9 {
+  padding-right: 18cm;
+}
+
+/* Exta Space >> 10 Columns */
+
+.container_10 .first {
+  left: -0.75cm;
+}
+
+.container_10 .last {
+  left: 0.75cm;
+}
+
+
+/* Push Space >> 10 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.container_10 .push_1 {
+  left: 2cm;
+}
+
+.container_10 .push_2 {
+  left: 4cm;
+}
+
+.container_10 .push_3 {
+  left: 6cm;
+}
+
+.container_10 .push_4 {
+  left: 8cm;
+}
+
+.container_10 .push_5 {
+  left: 10cm;
+}
+
+.container_10 .push_6 {
+  left: 12cm;
+}
+
+.container_10 .push_7 {
+  left: 14cm;
+}
+
+.container_10 .push_8 {
+  left: 16cm;
+}
+
+.container_10 .push_9 {
+  left: 18cm;
+}
+
+/* Pull Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.container_10 .pull_1 {
+  left: -2cm;
+}
+
+.container_10 .pull_2 {
+  left: -4cm;
+}
+
+.container_10 .pull_3 {
+  left: -6cm;
+}
+
+.container_10 .pull_4 {
+  left: -8cm;
+}
+
+.container_10 .pull_5 {
+  left: -10cm;
+}
+
+.container_10 .pull_6 {
+  left: -12cm;
+}
+
+.container_10 .pull_7 {
+  left: -14cm;
+}
+
+.container_10 .pull_8 {
+  left: -16cm;
+}
+
+.container_10 .pull_9 {
+  left: -18cm;
+}
+
+/* Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+
+.clearfix:before,
+.clearfix:after,
+.container_10:before,
+.container_10:after {
+  content: '.';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  font-size: 0;
+  line-height: 0;
+  width: 0;
+  height: 0;
+}
+
+.clearfix:after,
+.container_10:after {
+  clear: both;
+}
