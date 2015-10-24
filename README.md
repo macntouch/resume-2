@@ -2,7 +2,7 @@
 
 It is a resume sample in english (UK) written in HTML & CSS.  
 
-With this template, write your personal information, then print it in pdf with A4 format
+With this template, write your personal information, then print it in A4 format pdf
 with Google Chrome.
 
 ![alt text][sample] 
