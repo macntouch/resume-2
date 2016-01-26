@@ -8,3 +8,8 @@ with Google Chrome.
 ![alt text][sample] 
 
 [sample]: https://github.com/glegoux/resume/blob/master/resume_sample.png "sample"
+
+
+## Coding style
+
+* https://google.github.io/styleguide/htmlcssguide.xml
